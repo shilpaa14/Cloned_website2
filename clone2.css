@@ -1,0 +1,134 @@
+body {
+    background-color: rgb(18, 18, 18);
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.tags,.tags1, nav {
+    position: absolute;
+    top: 5%;
+    left: 70%;
+    transform: translateX(-50%);
+}
+
+.tags,.tags1, nav ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    padding: 10px;
+}
+
+.tags,.tags1, nav ol li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 110%;
+    padding-right: 10px;
+}
+
+.tags,.tags1, a:hover {
+    color: #b81212;
+}
+
+.image{
+    top:10%;
+    padding-left: 0%;
+    padding-top: 2%;
+}
+
+.content {
+    position: absolute;
+    top:30%;
+    left: 48%;
+    text-align: justify;
+    width: 400px;
+    line-height: 15px;
+}
+.content button {
+    background-color:#b81212;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;               
+}
+
+.block{
+    position: absolute;
+    left: 5%;
+    top:99%;
+    width:700px;
+    height: 740px;
+    background-color: rgb(30, 29, 29);
+    color: white;
+    line-height: 9px;   
+}
+
+.container1,.container2,.container3 {
+    position: absolute;
+    top:110%;
+    background-color: rgb(39, 37, 37);
+    color: white;
+    width: 250px;
+    height: 300px;
+}
+
+.container1, .container2, .container3, button {
+    background-color:rgb(39, 37, 37);
+    padding: 15px 25px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold; 
+    font-size: 100%;              
+}
+
+.box1,.box2,.box3,.box4 {
+    position: absolute;
+    background-color: rgb(39, 37, 37);
+    text-align: center;
+    width: 300px;
+    height: 100px;
+    line-height: 5px;               
+}
+
+.bar {
+    position: absolute;
+    top:240%;
+    background-color: rgb(18, 18, 18);
+    margin-left: 20%;
+    color: white;
+    width: 1000px;
+    height: 100px;
+    line-height: 10px;
+}
+
+.bar button {
+    background-color:#b81212;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;  
+    position: absolute;
+    top:25%;
+    margin-left: 84%;   
+}
+
+.pic1,.pic2 {
+    position: absolute;
+    top:270%; 
+    background-color: rgb(39, 37, 37);
+    width:465px;
+    height: 400px;
+}
+
+.pic3,.pic4 {
+    position: absolute;
+    top:370%; 
+    background-color: rgb(39, 37, 37);
+    width:465px;
+    height: 400px;
+}
